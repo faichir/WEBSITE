@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    padding: 0;
+   background-image: url();
+   background: cover;
+   width: 100%;
+   
+
+}
+.logo{
+    color: orangered;
+    font-size: 32px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.navbar ul, li a{
+    display: flex;
+    list-style: none;
+    padding-left: 80px;
+    margin-left: 40px; 
+    padding-top: 30px;  
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar ul, li :hover {
+    color: orangered;
+}
+.navbar, .srch {
+    display: flex; 
+    border-radius: 14px; 
+}
+.srch {
+    margin-left: 70px;
+    margin-top: 20px;
+    padding-top: 40px;   
+    height: 40px;
+    border-radius: 14px;
+}
+.srch a{
+    text-decoration: none;
+}
+.srch input {
+    border-radius: 14px;
+    gap: 40px;
+}
+.srch button {
+   margin-left: 30px;
+   margin-top: 5px;
+}
+span {
+    color: orangered;
+}
+.form h3{
+    width: 200px;
+    height: 40px;
+    color: orangered;
+    background-color: white;
+    padding-top: 10px;
+    margin-left: 75px;
+    border-radius: 20px;
+}
+
+
+.form input {
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    margin-top: 15px;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    color: white;
+    border-color: orange;
+}
+.form button{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
+.form button:hover {
+    background-color: white;
+    transition: 0.4s ease;
+
+}
+.form p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn{
+    height: 30px;
+    background-color: orange;
+    border: 2px;
+    border-radius: 10px;
+}
+.btn:hover {
+    background: whitesmoke;
+}
+.up{
+    color: white;
+}
+ span a{
+    color: orange;
+}
+.web {
+    width: 50%;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-top: 60px;
+
+}
+p {
+    font-size: 26px;
+}
+.btnn {
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: orange;
+    transition: 0.4s ease;
+    
+    
+}
+.btnn a {
+    color: black;
+   font-size: 18px;
+   text-decoration: none;
+   
+   
+}
+.btnn:hover {
+    background: white;
+    color:orange ;
+
+}
+.form {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.design {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;justify-content: space-between;
+    align-items: center;
+}
+fieldset{
+    margin-top: 150px;
+    border-radius: 10px;
+    margin-right: 350px;
+    padding-top: 50px;
+    padding-left: 20px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    border: transparent; 
+    width: 350px;  
+}
+.ready {
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.ready h2 {
+    font-size: 40px;
+}
+.ready button {
+    height: 40px;
+    border-radius: 14px;
+    background-color: orange;
+    
+}
+.ready button:hover {
+background-color:white;
+transition: 0.4s ease;
+}
+.ready button a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+      
+}
+.footer p {
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.footer2 {
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 10px;
+    padding-right: 70px;
+    list-style: none;
+}
+.footer2 h4 a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    
+}
+.footer2 h4 a:hover{
+    color: orange;
+}
+.auto {
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 4px;
+}
+.subscribe p {
+    font-size: 28px;
+}
+.subscribe input {
+    height: 30px;
+    width: 200px;
+    margin-left: 70px;
+    background-color: transparent;
+}
+.subscribe button {
+    border-radius: 10px;
+    background-color: orange;
+    height: 40px;
+}
+.subscribe button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width :720px ){
+    .design {
+        flex-direction: column;
+    
+    }
+    .web h1 {
+        font-size: 25px;
+        padding: 10px;
+        
+    }
+    .web {
+       width: 100%;
+        padding: 0;
+
+    }
+    .web p {
+        padding: 10px;
+        font-size: 18px;
+    } 
+    .navbar ul {
+        display: none;
+    }
+   .btnn {
+    align-items: center;
+    margin-left:50px ;
+   } 
+}
